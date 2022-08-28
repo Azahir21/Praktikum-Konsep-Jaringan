@@ -37,6 +37,7 @@ untuk mengkoneksikan kabel UTp ada 2 metode yaitu :
 - a) Straight
 
   Kabel straight menggunakan standar yang sama antar ujung dengan ujung yang lain. Kabel straight digunakan untuk menguhubungkan hub ke router, menghubungkan switch ke router, menghubungkan komputer dengan switch.
+  
   ![This is an image](https://github.com/Azahir21/keyboard-cwkl/blob/main/utp%20Straight.png)
 
 * b) Crossover
