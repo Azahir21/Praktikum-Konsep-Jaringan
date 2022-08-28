@@ -37,12 +37,12 @@ untuk mengkoneksikan kabel UTp ada 2 metode yaitu :
 - a) Straight
 
   Kabel straight menggunakan standar yang sama antar ujung dengan ujung yang lain. Kabel straight digunakan untuk menguhubungkan hub ke router, menghubungkan switch ke router, menghubungkan komputer dengan switch.
+  ![This is an image](https://github.com/Azahir21/keyboard-cwkl/blob/main/utp%20Straight.png)
 
 * b) Crossover
 
   Kabel crossover menggunakan standar yang berbeda pada salah satu ujungnya, ujung ke-1 menggunakan standar IEA/TIA 568A sedangkan ujung kedua menggunakan standar IEA/TIA 568B. Kabel crossover digunkanan untuk mengghubungkan 2 buah komputer secara langsung, menghubungkan 2 bauh switch, menguhubkan 2 buah hub, menghubungkan switch dengan hub.
 
-![This is an image]()
 
 # 2. Pembuatan Kabel UTP
 
