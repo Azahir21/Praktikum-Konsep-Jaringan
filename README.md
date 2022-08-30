@@ -6,6 +6,8 @@
 
 ### Kelas : 2 D4 Teknik Informatika A
 
+### Link github: https://github.com/Azahir21/Konsep-Jaringan-1
+
 # 1. Dasar Teori
 
 Media jaringan merupakan perangkat keras yang digunakan untuk menghubungkan 2 buah divaice atau lebih. Untuk membangun media jaringan membutuhkan minimal 2 komputer, Network Interface Card, alat pendukung seperti switch, hub, router, dll.
