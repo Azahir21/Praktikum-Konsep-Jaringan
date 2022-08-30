@@ -4,7 +4,7 @@
 
 ### NRP : 3121600012
 
-### Kelas : 2 D$ Teknik Informatika A
+### Kelas : 2 D4 Teknik Informatika A
 
 # 1. Dasar Teori
 
