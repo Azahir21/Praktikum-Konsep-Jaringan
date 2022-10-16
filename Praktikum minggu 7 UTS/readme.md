@@ -43,66 +43,69 @@ Konfigurasi IP yang akan digunakan sebagai berikut :
 ## Analisa
 
 ### konfigurasi yang saya berikan pada router0 :
-  !
-  interface FastEthernet0/0.10
-  encapsulation dot1Q 10
-  ip address 192.168.1.1 255.255.255.0
-  no shutdown
-  !
-  interface FastEthernet0/0.20
-  encapsulation dot1Q 20
-  ip address 192.168.2.1 255.255.255.0
-  no
-  !
+
+    !
+    interface FastEthernet0/0.10
+    encapsulation dot1Q 10
+    ip address 192.168.1.1 255.255.255.0
+    no shutdown
+    !
+    interface FastEthernet0/0.20
+    encapsulation dot1Q 20
+    ip address 192.168.2.1 255.255.255.0
+    no
+    !
 
 Penjelasan :
 Pada port fa0/0 sub 10 saya berikan encapsulation dengan standart dot1q dan ip address 192.168.1.1 dan pada port fa0/0 sub 20 saya berikan encapsulation dengan standart dot1q dan ip address 192.168.2.1
 
 ### konfigurasi yang saya berikan pada switch0 :
-!
-vlan 10
-name 10
-!
-vlan 20
-name 20
-!
-interface FastEthernet0/1
-switchport access vlan 10
-!
-interface FastEthernet0/2
-switchport access vlan 10
-!
-interface FastEthernet0/3
-switchport access vlan 20
-!
-interface FastEthernet0/4
-switchport access vlan 20
-!
-interface FastEthernet0/5
-switchport mode trunk
-!
-interface FastEthernet0/24
-switchport mode trunk
-!
+
+    !
+    vlan 10
+    name 10
+    !
+    vlan 20
+    name 20
+    !
+    interface FastEthernet0/1
+    switchport access vlan 10
+    !
+    interface FastEthernet0/2
+    switchport access vlan 10
+    !
+    interface FastEthernet0/3
+    switchport access vlan 20
+    !
+    interface FastEthernet0/4
+    switchport access vlan 20
+    !
+    interface FastEthernet0/5
+    switchport mode trunk
+    !
+    interface FastEthernet0/24
+    switchport mode trunk
+    !
 
 Penjelasan:
 Pertama saya buat telebih dahulu vlan 10 dan vlan 20 dengan nama 10 dan 20, setelah itu saya bagi setiap pc supaya mendapat vlan yang sesuai dengan kriteria topologi. Sya juga memberikan router0 akses mode trunk
 dan switch1 akses mode trunk.
 
 ### konfigurasi yang saya berikan pada switch1 :
-!
-interface FastEthernet0/1
-switchport access vlan 10
-!
-interface FastEthernet0/2
-switchport access vlan 10
-!
-interface FastEthernet0/3
-switchport access vlan 20
-!
-interface FastEthernet0/4
-switchport access vlan 20
-!
+
+    !
+    interface FastEthernet0/1
+    switchport access vlan 10
+    !
+    interface FastEthernet0/2
+    switchport access vlan 10
+    !
+    interface FastEthernet0/3
+    switchport access vlan 20
+    !
+    interface FastEthernet0/4
+    switchport access vlan 20
+    !
 
 Penjelasan :
 Pada switch akan terjadi pembagian vlan untuk setiap PC, pada port fa0/24 sudah memiliki mode trunk karena di switch 0 sudah di mode trunk
