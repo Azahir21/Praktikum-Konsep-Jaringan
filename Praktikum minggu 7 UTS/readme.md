@@ -114,4 +114,4 @@ Pada switch akan terjadi pembagian vlan untuk setiap PC, pada port fa0/24 sudah 
 
 Setelah setiap perangkap dikonfigurasi akan menhasilkan hasil seperti berikut :
 
-![Hasil Percobaan](/assets/HasilPercobaan.png)
+![Hasil Percobaan](assets/HasilPercobaan.png)
