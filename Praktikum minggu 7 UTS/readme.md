@@ -43,7 +43,6 @@ Konfigurasi IP yang akan digunakan sebagai berikut :
 ## Analisa
 
 ### konfigurasi yang saya berikan pada router0 :
-
 !
 interface FastEthernet0/0.10
 encapsulation dot1Q 10
@@ -60,7 +59,6 @@ Penjelasan :
 Pada port fa0/0 sub 10 saya berikan encapsulation dengan standart dot1q dan ip address 192.168.1.1 dan pada port fa0/0 sub 20 saya berikan encapsulation dengan standart dot1q dan ip address 192.168.2.1
 
 ### konfigurasi yang saya berikan pada switch0 :
-
 !
 vlan 10
 name 10
@@ -92,7 +90,6 @@ Pertama saya buat telebih dahulu vlan 10 dan vlan 20 dengan nama 10 dan 20, sete
 dan switch1 akses mode trunk.
 
 ### konfigurasi yang saya berikan pada switch1 :
-
 !
 interface FastEthernet0/1
 switchport access vlan 10
