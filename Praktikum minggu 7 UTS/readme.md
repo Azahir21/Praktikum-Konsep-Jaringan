@@ -43,17 +43,17 @@ Konfigurasi IP yang akan digunakan sebagai berikut :
 ## Analisa
 
 ### konfigurasi yang saya berikan pada router0 :
-!
-interface FastEthernet0/0.10
-encapsulation dot1Q 10
-ip address 192.168.1.1 255.255.255.0
-no shutdown
-!
-interface FastEthernet0/0.20
-encapsulation dot1Q 20
-ip address 192.168.2.1 255.255.255.0
-no
-!
+  !
+  interface FastEthernet0/0.10
+  encapsulation dot1Q 10
+  ip address 192.168.1.1 255.255.255.0
+  no shutdown
+  !
+  interface FastEthernet0/0.20
+  encapsulation dot1Q 20
+  ip address 192.168.2.1 255.255.255.0
+  no
+  !
 
 Penjelasan :
 Pada port fa0/0 sub 10 saya berikan encapsulation dengan standart dot1q dan ip address 192.168.1.1 dan pada port fa0/0 sub 20 saya berikan encapsulation dengan standart dot1q dan ip address 192.168.2.1
