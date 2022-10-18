@@ -6,8 +6,6 @@
 
 ### Kelas : 2 D4 Teknik Informatika A
 
-# Praktikum 6 - UTS
-
 # Praktikum 8
 
 ## Topologi
